@@ -1,0 +1,28 @@
+{
+    "checksum": "e9a143fe54685b7d980391d4256cc1aa",
+    "wallpaper": "/home/dxrie/Documents/git-clone/aesthetic-wallpapers/images/beautiful.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a030d",
+        "foreground": "#c1c0c2",
+        "cursor": "#c1c0c2"
+    },
+    "colors": {
+        "color0": "#0a030d",
+        "color1": "#626095",
+        "color2": "#9A7093",
+        "color3": "#D3768D",
+        "color4": "#9D8BAC",
+        "color5": "#C59F88",
+        "color6": "#DB9FA2",
+        "color7": "#c1c0c2",
+        "color8": "#615467",
+        "color9": "#626095",
+        "color10": "#9A7093",
+        "color11": "#D3768D",
+        "color12": "#9D8BAC",
+        "color13": "#C59F88",
+        "color14": "#DB9FA2",
+        "color15": "#c1c0c2"
+    }
+}

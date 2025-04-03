@@ -1,0 +1,28 @@
+{
+    "checksum": "2873892c8da14af50c6736e3b417a4ec",
+    "wallpaper": "/home/dxrie/Pictures/Doodle_Space_Nord.png",
+    "alpha": "100",
+    "special": {
+        "background": "#242129",
+        "foreground": "#c8c7c9",
+        "cursor": "#c8c7c9"
+    },
+    "colors": {
+        "color0": "#242129",
+        "color1": "#956566",
+        "color2": "#C4656C",
+        "color3": "#938C79",
+        "color4": "#B39379",
+        "color5": "#CD9B7A",
+        "color6": "#797E84",
+        "color7": "#c8c7c9",
+        "color8": "#6e657b",
+        "color9": "#956566",
+        "color10": "#C4656C",
+        "color11": "#938C79",
+        "color12": "#B39379",
+        "color13": "#CD9B7A",
+        "color14": "#797E84",
+        "color15": "#c8c7c9"
+    }
+}
