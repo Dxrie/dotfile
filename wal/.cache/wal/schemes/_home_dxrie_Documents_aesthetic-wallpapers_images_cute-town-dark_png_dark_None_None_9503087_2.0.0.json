@@ -1,0 +1,28 @@
+{
+    "checksum": "10358aa27e343f0a4599dd47008ab794",
+    "wallpaper": "/home/dxrie/Documents/aesthetic-wallpapers/images/cute-town-dark.png",
+    "alpha": "100",
+    "special": {
+        "background": "#030D0B",
+        "foreground": "#c0c2c2",
+        "cursor": "#c0c2c2"
+    },
+    "colors": {
+        "color0": "#030D0B",
+        "color1": "#215160",
+        "color2": "#4C6E5B",
+        "color3": "#668C2C",
+        "color4": "#628F5D",
+        "color5": "#AABA60",
+        "color6": "#186496",
+        "color7": "#c0c2c2",
+        "color8": "#546764",
+        "color9": "#215160",
+        "color10": "#4C6E5B",
+        "color11": "#668C2C",
+        "color12": "#628F5D",
+        "color13": "#AABA60",
+        "color14": "#186496",
+        "color15": "#c0c2c2"
+    }
+}

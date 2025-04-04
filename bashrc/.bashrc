@@ -148,7 +148,7 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-alias zed="~/.local/bin/zed"
+alias zed="/usr/bin/zeditor"
 
 fastfetch
 

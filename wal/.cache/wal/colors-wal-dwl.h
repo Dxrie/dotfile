@@ -4,10 +4,10 @@
                         ((hex >> 8) & 0xFF) / 255.0f, \
                         (hex & 0xFF) / 255.0f }
 
-static const float rootcolor[]             = COLOR(0x141c31ff);
+static const float rootcolor[]             = COLOR(0x0a090cff);
 static uint32_t colors[][3]                = {
 	/*               fg          bg          border    */
-	[SchemeNorm] = { 0xc4c6cbff, 0x141c31ff, 0x646a7aff },
-	[SchemeSel]  = { 0xc4c6cbff, 0x546D8Bff, 0xC6B978ff },
-	[SchemeUrg]  = { 0xc4c6cbff, 0xC6B978ff, 0x546D8Bff },
+	[SchemeNorm] = { 0xc1c1c2ff, 0x0a090cff, 0x565669ff },
+	[SchemeSel]  = { 0xc1c1c2ff, 0x3D6F87ff, 0xA04F5Fff },
+	[SchemeUrg]  = { 0xc1c1c2ff, 0xA04F5Fff, 0x3D6F87ff },
 };

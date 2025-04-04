@@ -1,0 +1,28 @@
+{
+    "checksum": "d4a5f28ad744374d4360391201ad773c",
+    "wallpaper": "/home/dxrie/Documents/aesthetic-wallpapers/images/waterfall.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#021219",
+        "foreground": "#bfc3c5",
+        "cursor": "#bfc3c5"
+    },
+    "colors": {
+        "color0": "#021219",
+        "color1": "#536A6B",
+        "color2": "#6A8679",
+        "color3": "#878F7B",
+        "color4": "#5E7683",
+        "color5": "#738A8C",
+        "color6": "#92A59C",
+        "color7": "#bfc3c5",
+        "color8": "#57646b",
+        "color9": "#536A6B",
+        "color10": "#6A8679",
+        "color11": "#878F7B",
+        "color12": "#5E7683",
+        "color13": "#738A8C",
+        "color14": "#92A59C",
+        "color15": "#bfc3c5"
+    }
+}
