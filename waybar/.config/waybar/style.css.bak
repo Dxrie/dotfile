@@ -24,12 +24,6 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-#workspaces button.active,
-#workspaces button.focused {
-  color: @color6;
-  background-color: transparent;
-}
-
 /*
 window#waybar.empty {
     background-color: transparent;
