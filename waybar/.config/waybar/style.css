@@ -65,14 +65,17 @@ button:hover {
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
     background-color: #a37800;
-    color: @foreground;
-    background-color: @color2;
+    color: @background;
+    background-color: @color14;
 }
 
 #workspaces {
 	background-color: rgba(43, 48, 59, 0);
 	background-color: @background;
 	padding: 0 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: @color14;
 }
 
 #window {
@@ -124,6 +127,9 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    border-width: 2px;
+    border-color: @color14;
+    border-style: solid;
 }
 
 #window,
@@ -143,20 +149,20 @@ button:hover {
 
 #clock {
     background-color: #64727D;
-    color: @foreground;
+    color: @color14;
     background-color: @background;
 }
 
 #battery {
     background-color: #ffffff;
-    color: @foreground;
+    color: @color14;
     background-color: @background;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: @color14;
     background-color: #26A65B;
-    color: @foreground;
+    color: @color14;
     background-color: @background;
 }
 
@@ -208,7 +214,7 @@ label:focus {
 
 #memory {
     background-color: @background;
-    color: @foreground;
+    color: @color14;
 }
 
 #disk {
@@ -220,7 +226,7 @@ label:focus {
 }
 
 #network {
-    color: @foreground;
+    color: @color14;
     background-color: @background;
 }
 
@@ -231,7 +237,7 @@ label:focus {
 }
 
 #pulseaudio {
-	color: @foreground;
+	color: @color14;
     background-color: @background;
 
 }
@@ -273,7 +279,7 @@ label:focus {
 }
 
 #tray {
-    color: @foreground;
+    color: @color14;
     background-color: @background;
 }
 
@@ -371,7 +377,7 @@ label:focus {
 
 #bluetooth {
 	background-color: @background;
-	color: @foreground;
+	color: @color14;
 	padding: 0 10px;
 }
 
