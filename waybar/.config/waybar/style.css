@@ -26,7 +26,7 @@ window#waybar.hidden {
 
 #workspaces button.active,
 #workspaces button.focused {
-  color: @color6;
+  color: @color12;
   background-color: transparent;
 }
 
@@ -36,6 +36,8 @@ window#waybar.empty {
 }
 window#waybar.solo {
     background-color: #FFFFFF;
+rder
+
 }
 */
 
@@ -75,7 +77,7 @@ button:hover {
 	padding: 0 5px;
   border-width: 2px;
   border-style: solid;
-  border-color: @color14;
+  border-color: @color13;
 }
 
 #window {
@@ -128,7 +130,7 @@ button:hover {
     padding: 0 10px;
     color: #ffffff;
     border-width: 2px;
-    border-color: @color14;
+    border-color: @color13;
     border-style: solid;
 }
 
@@ -379,5 +381,8 @@ label:focus {
 	background-color: @background;
 	color: @color14;
 	padding: 0 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: @color13;
 }
 

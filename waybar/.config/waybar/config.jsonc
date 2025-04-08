@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules,
- 	"margin": 3,
+ 	//"margin": 3,
     "modules-left": [
         "clock",
         "memory",
