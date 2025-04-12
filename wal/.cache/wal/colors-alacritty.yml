@@ -1,8 +1,8 @@
 colors:
 
   primary:
-    background: "#12101e"
-    foreground: "#c3c3c6"
+    background: "#242d1e"
+    foreground: "#c8cac6"
 
   cursor:
     text: CellBackground
@@ -14,8 +14,8 @@ colors:
 
   search:
     matches:
-      foreground: '#12101e'
-      background: '#c3c3c6'
+      foreground: '#242d1e'
+      background: '#c8cac6'
     focused_match:
       foreground: CellBackground
       background: CellForeground
@@ -25,39 +25,39 @@ colors:
     background: None
 
   footer_bar:
-    foreground: '#5f5d71'
-    background: '#c3c3c6'
+    foreground: '#6e7c65'
+    background: '#c8cac6'
 
   selection:
     text: CellBackground
     background: CellForeground
 
   normal:
-    black: "#12101e"
-    red: "#8C7893"
-    green: "#7C819B"
-    yellow: "#A293A9"
-    blue: "#CAA7B9"
-    magenta: "#BAB6C4"
-    cyan: "#CABAC3"
-    white: "#c3c3c6"
+    black: "#242d1e"
+    red: "#A5C25D"
+    green: "#467687"
+    yellow: "#3CA7BF"
+    blue: "#57949D"
+    magenta: "#A7AC97"
+    cyan: "#B8C0AC"
+    white: "#c8cac6"
 
   bright:
-    black: "#5f5d71"
-    red: "#8C7893"
-    green: "#7C819B"
-    yellow: "#A293A9"
-    blue: "#CAA7B9"
-    magenta: "#BAB6C4"
-    cyan: "#CABAC3"
-    white: "#c3c3c6"
+    black: "#6e7c65"
+    red: "#A5C25D"
+    green: "#467687"
+    yellow: "#3CA7BF"
+    blue: "#57949D"
+    magenta: "#A7AC97"
+    cyan: "#B8C0AC"
+    white: "#c8cac6"
 
   dim:
-    black: "#c3c3c6"
-    red: "#8C7893"
-    green: "#BAB6C4"
-    yellow: "#A293A9"
-    blue: "#CAA7B9"
-    magenta: "#7C819B"
-    cyan: "#CABAC3"
-    white: "#5f5d71"
+    black: "#c8cac6"
+    red: "#A5C25D"
+    green: "#A7AC97"
+    yellow: "#3CA7BF"
+    blue: "#57949D"
+    magenta: "#467687"
+    cyan: "#B8C0AC"
+    white: "#6e7c65"
