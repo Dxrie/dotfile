@@ -11,6 +11,7 @@ export OSH='/home/dxrie/.oh-my-bash'
 # it'll load a random theme each time that oh-my-bash is loaded.
 #OSH_THEME="font"
 OSH_THEME="cupcake"
+# OSH_THEME="absimple"
 #OSH_THEME="ht"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
