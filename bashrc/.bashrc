@@ -154,3 +154,5 @@ alias zed="/usr/bin/zeditor"
 fastfetch
 
 eval "$(thefuck --alias)"
+
+alias token="cat ~/GITHUB.TXT"
