@@ -1,0 +1,28 @@
+{
+    "checksum": "b65eff26b77ac5dcbbf11e0708b30e8a",
+    "wallpaper": "/home/dxrie/Documents/aesthetic-wallpapers/images/beige_tree.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1e0d14",
+        "foreground": "#c6c2c4",
+        "cursor": "#c6c2c4"
+    },
+    "colors": {
+        "color0": "#1e0d14",
+        "color1": "#685059",
+        "color2": "#9F2A37",
+        "color3": "#D8312F",
+        "color4": "#8C3743",
+        "color5": "#8F665D",
+        "color6": "#AA8C75",
+        "color7": "#c6c2c4",
+        "color8": "#705c65",
+        "color9": "#685059",
+        "color10": "#9F2A37",
+        "color11": "#D8312F",
+        "color12": "#8C3743",
+        "color13": "#8F665D",
+        "color14": "#AA8C75",
+        "color15": "#c6c2c4"
+    }
+}

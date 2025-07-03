@@ -1,7 +1,7 @@
 # Enable the subsequent settings only in interactive sessions
 case $- in
-  *i*) ;;
-    *) return;;
+*i*) ;;
+*) return ;;
 esac
 
 # Path to your oh-my-bash installation.
@@ -10,8 +10,8 @@ export OSH='/home/dxrie/.oh-my-bash'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
 #OSH_THEME="font"
-OSH_THEME="cupcake"
-# OSH_THEME="absimple"
+#OSH_THEME="cupcake"
+OSH_THEME="agnoster"
 #OSH_THEME="ht"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
@@ -149,10 +149,20 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-alias zed="/usr/bin/zeditor"
+alias zed="/home/dxrie/.local/bin/zed"
 
 fastfetch
 
 eval "$(thefuck --alias)"
 
 alias token="cat ~/GITHUB.TXT"
+alias ghidra_auto="python ~/.local/bin/ghidra_auto.py"
+alias yt2mp3="python ~/.local/bin/yt2mp3.py"
+
+export PATH="$HOME/.local/bin:$PATH"
+alias jadx-gui='env GDK_BACKEND=x11 _JAVA_AWT_WM_NONREPARENTING=1 jadx-gui'
+alias stegsolve="java -jar ~/.local/bin/stegsolve.jar &"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+alias pyinstxtractor="python ~/.local/bin/pyinstxtractor-2025.02/pyinstxtractor.py"

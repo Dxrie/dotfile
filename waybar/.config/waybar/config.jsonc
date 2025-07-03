@@ -10,13 +10,14 @@
     "modules-left": [
         "clock",
         "memory",
-        "bluetooth"
+        // "bluetooth"
+        "pulseaudio"
     ],
     "modules-center": [
         "hyprland/workspaces"
     ],
     "modules-right": [
-        "pulseaudio",
+       	// "pulseaudio",
         "network",
         "battery",
         "battery#bat2",
