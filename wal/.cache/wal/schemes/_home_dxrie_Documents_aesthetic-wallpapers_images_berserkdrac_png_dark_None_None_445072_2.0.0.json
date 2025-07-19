@@ -1,0 +1,28 @@
+{
+    "checksum": "0078548a3f3e4c133d123af67b1094b0",
+    "wallpaper": "/home/dxrie/Documents/aesthetic-wallpapers/images/berserkdrac.png",
+    "alpha": "100",
+    "special": {
+        "background": "#210e13",
+        "foreground": "#c7c2c4",
+        "cursor": "#c7c2c4"
+    },
+    "colors": {
+        "color0": "#210e13",
+        "color1": "#BA4146",
+        "color2": "#D04549",
+        "color3": "#FF5555",
+        "color4": "#FD6D6E",
+        "color5": "#8C7D83",
+        "color6": "#B7A0A4",
+        "color7": "#c7c2c4",
+        "color8": "#725d62",
+        "color9": "#BA4146",
+        "color10": "#D04549",
+        "color11": "#FF5555",
+        "color12": "#FD6D6E",
+        "color13": "#8C7D83",
+        "color14": "#B7A0A4",
+        "color15": "#c7c2c4"
+    }
+}
