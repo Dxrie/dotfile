@@ -167,3 +167,5 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - bash)"
 alias pyinstxtractor="python ~/.local/bin/pyinstxtractor-2025.02/pyinstxtractor.py"
 alias mount_simpan="sudo mount -t ntfs-3g /dev/nvme0n1p6 /run/media/dxrie/simpan"
+
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
