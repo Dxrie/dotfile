@@ -7,6 +7,8 @@ return {
         ["php"] = { "pretty-php" },
         ["typescript"] = { "prettierd" },
         ["rust"] = { "ast-grep" },
+        ["json"] = { "prettierd" },
+        ["jsonc"] = { "prettierd" },
       },
     },
   },

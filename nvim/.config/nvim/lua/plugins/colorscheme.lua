@@ -1,11 +1,11 @@
 return {
-  { "folke/tokyonight.nvim" },
+  { "AlexvZyl/nordic.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "nordic",
     },
   },
 }
