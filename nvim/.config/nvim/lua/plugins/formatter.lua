@@ -9,6 +9,7 @@ return {
         ["rust"] = { "ast-grep" },
         ["json"] = { "prettierd" },
         ["jsonc"] = { "prettierd" },
+        ["blade"] = { "blade-formatter" },
       },
     },
   },

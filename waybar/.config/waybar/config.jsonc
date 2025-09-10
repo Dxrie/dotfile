@@ -7,10 +7,13 @@
   "passthrough": false,
   "fixed-center": true,
 
-  "modules-left": ["hyprland/workspaces", "custom/sep", "hyprland/window"],
-  "modules-center": ["custom/music-player"],
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/sep",
+    "memory",
+    "hyprland/window",
+  ],
   "modules-right": [
-    "custom/screen-recorder",
     "custom/sep",
     "battery",
     "pulseaudio",
@@ -21,7 +24,7 @@
     "tray",
   ],
   "battery": {
-    "interval": 30,
+    "interval": 10,
     "states": {
       "good": 95,
       "warning": 30,
@@ -33,26 +36,6 @@
     "format-alt": "{time} {icon}",
     "format-icons": ["󰁻", "󰁼", "󰁾", "󰂀", "󰂂", "󰁹"],
   },
-  "custom/screen-recorder": {
-    "exec": "~/.config/waybar/modules/screen_recorder_init.sh",
-    "interval": 1,
-    "return-type": "json",
-    "format": "{}",
-    "on-click": "~/.config/waybar/modules/screen_recorder.sh save",
-    "on-click-middle": "~/.config/waybar/modules/screen_recorder.sh restart",
-    "on-click-right": "~/.config/waybar/modules/screen_recorder.sh stop",
-  },
-
-  "custom/music-player": {
-    "interval": 1,
-    "format": "{}",
-    "return-type": "json",
-    "exec": "~/.config/waybar/modules/music_player.sh grep",
-    "on-click": "~/.config/waybar/modules/music_player.sh previous",
-    "on-click-middle": "~/.config/waybar/modules/music_player.sh pause",
-    "on-click-right": "~/.config/waybar/modules/music_player.sh next",
-  },
-
   "wlr/workspaces": {
     "on-click": "activate",
     "format": "{name}",
@@ -60,7 +43,6 @@
     "disable-scroll": false,
     "active-only": false,
   },
-
   "hyprland/window": {
     "format": "{}",
     "rewrite": {
@@ -69,17 +51,14 @@
     "icon": true,
     "icon-size": 22,
   },
-
   "tray": {
     "show-passive-items": true,
     "spacing": 10,
   },
-
   "clock": {
     "tooltip": false,
     "format": "  {:%H:%M}",
   },
-
   "clock#date": {
     "format": "  {:L%a %d %b}",
     "tooltip-format": "<tt>{calendar}</tt>",
@@ -97,14 +76,13 @@
     "min-length": 8,
     "max-length": 28,
   },
-
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "  muted",
     "format-icons": {
       "headphone": " ",
-      "hands-free": "󰂑",
-      "headset": "󰂑",
+      "hands-free": " ",
+      "headset": " ",
       "phone": "",
       "portable": "",
       "car": "",
@@ -113,7 +91,6 @@
     "on-click-middle": "pamixer -t",
     "on-click": "pavucontrol",
   },
-
   "pulseaudio#microphone": {
     "format": "{format_source}",
     "format-source": " {volume}%",
@@ -124,15 +101,8 @@
     "on-scroll-down": "~/.config/hypr/scripts/volume.sh --mic-dec",
     "tooltip-format": "{source_desc} | {source_volume}%",
   },
-
   "custom/sep": {
     "format": "|",
     "tooltip": false,
-  },
-
-  "custom/power": {
-    "tooltip": false,
-    "on-click": "~/.config/rofi/powermenu/type-2/powermenu.sh &",
-    "format": "⏻ ",
   },
 }
